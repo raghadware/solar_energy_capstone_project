@@ -21,12 +21,15 @@ Global Horizontal Irradiation (GHI): GHI is the total amount of solar radiation 
 
 Diffuse Horizontal Irradiation (DIF):  Diffuse Horizontal Irradiation is the component of solar radiation received from the sky (excluding the sun's direct rays) on a horizontal surface. It's measured in kilowatt-hours per square meter (kWh/m²).​
 
+* Saudi Solar ChatBot:
+This chatbot is designed to provide information and answer queries related to Saudi Arabia's Vision 2030 initiative, with a specific focus on solar and renewable energy projects. The Saudi Solar ChatBot offers users an intuitive interface to inquire about the latest solar initiatives, and the overall progress toward renewable energy targets in Saudi Arabia.  
+
 # Methodology: 
 * Image Classification: Pre-trained model (MobileNet).
 * Object Detection: YoloV8.
 * Predicting Generated Energy: Ridge Regressor.
 * Location Recommender: K-means Clustring.
-* Saudi Solar Chatbot: LLM & Langchain. 
+* Saudi Solar Chatbot: Large Language Model(LLM): gpt-3.5-turbo, LangChain for localization, OpenAI for natural language processing, and Gradio has been utilized to provide a graphical user interface (GUI) for seamless interaction. 
 
 # Result: 
 * Image Classification: accuracy -> 91.66% 
